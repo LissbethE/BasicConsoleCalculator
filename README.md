@@ -32,3 +32,26 @@ Esta calculadora es ideal para aquellos que buscan una implementación básica d
    ```bash
    git clone https://github.com/LissbethE/BasicConsoleCalculator.git
    ```
+2. **Navegar al directorio del proyecto:**
+    ```bash
+   cd BasicConsoleCalculator
+   ```
+3. **Compilar el código**:
+   Compila los archivos .java utilizando el siguiente comando:
+    ```bash
+   javac -d bin Calculadora.java Numero.java Operacion.java
+   ```
+    Esto generará los archivos .class en la carpeta bin.
+
+## Ejecución
+
+1. **Navegar a la carpeta bin:**
+   ```bash
+   cd bin
+   ```
+2. **Ejecutar la aplicación:** Ejecuta la calculadora con el siguiente comando:
+     ```bash
+   java Calculadora
+   ```
+   
+
